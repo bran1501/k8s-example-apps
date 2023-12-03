@@ -12,7 +12,7 @@ spec:
         name: mongo
     spec:
       containers:
-      - image: mongo
+      - image: amd64/mongo:3.4.24-xenial
         name: mongo
         ports:
         - name: mongo
